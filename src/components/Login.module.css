@@ -1,0 +1,34 @@
+.input {
+    border: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+}
+
+.input:focus-visible {
+    border: 1px solid rgb(8, 102, 8);
+}
+
+.card {
+    box-shadow: 0 5px 20px black;
+    background-color: rgba(0, 15, 99, 0.425);
+}
+
+.btn {
+    border: 1px solid rgb(62, 42, 177);
+    border-radius: 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+.btn:hover {
+    transition: 0.7s;
+    background-color: rgb(62, 42, 177);
+    color: white;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    accent-color: rgb(62, 42, 177);
+
+}

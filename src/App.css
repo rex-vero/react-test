@@ -1,0 +1,8 @@
+.App{
+  background-color: white;
+  animation: back 6s ease-in-out 0.3s infinite alternate forwards;
+}
+@keyframes back {
+  from{  background-color: white;}
+  to{  background-color: rgba(0, 0, 0, 0.473);}
+}
